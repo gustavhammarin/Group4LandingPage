@@ -1,0 +1,26 @@
+.container {
+  width: 60%;                
+  max-width: 700px;          
+  min-width: 280px;          
+  margin: 5% auto;          
+  padding: 20px 30px;
+  
+  background: #fff;         
+  border-radius: 12px;       
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); 
+  
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: 1rem;
+  color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container img {
+    width: auto;
+    height: auto;
+    max-width: 600px;
+
+}
