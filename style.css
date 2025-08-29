@@ -15,8 +15,70 @@ body {
   border: 2px solid black;
   padding: 5px;
   box-shadow: 1px 2px 3px black;
+  margin-top: 20px;
 }
 
 .github-container:hover{
   background-color: rgb(201, 201, 201);
 }
+
+
+.container {
+  width: 60%;                
+  max-width: 700px;          
+  min-width: 280px;          
+  margin: 5% auto;          
+  padding: 20px 30px;
+  
+  background: #fff;         
+  border-radius: 12px;       
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); 
+  
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: 1rem;
+  color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container img {
+  width: auto;
+  height: auto;
+  max-width: 400px;
+  border-radius: 12px;
+
+}
+
+.container h3 {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container ul {
+  list-style: none;        
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: 1rem;
+  color: #555;
+}
+
+.container ul li {
+  background: #f8f9fa;        
+  margin: 6px 0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: background 0.2s;
+}
+
+.container ul li:hover {
+  background: #e9ecef;        
+}
+
+
